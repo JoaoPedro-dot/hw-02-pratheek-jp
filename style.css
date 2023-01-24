@@ -1,0 +1,22 @@
+/* Styling goes in this file */
+
+body {
+	font-family: "Arial";
+}
+
+.centered {
+	text-align: center;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+td
+{
+    border: solid 1px;
+    border-color: lightgray;
+    border-left: none;
+    border-right: none;
+
+}
