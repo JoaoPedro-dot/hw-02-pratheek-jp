@@ -1,7 +1,7 @@
 # hw-02
 hw-02 - Static Webpage
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: `[https://joaopedro-dot.github.io/hw-02-pratheek-jp/]`
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
@@ -22,7 +22,7 @@ The purpose of this assignment is to practice more advanced HTML and CSS, as wel
    - Make all font on your webpage Arial. 
    - Add a title: "hw-02".
 
-   
+
    - Add a div with the id "data-abstraction". Inside of this div:
       - Add a div with the class "info". Inside of this div: 
          - Add a centered header: "Dataset Types".
