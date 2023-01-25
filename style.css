@@ -9,8 +9,8 @@ body {
 }
 
 .table {
-    border-collapse:collapse;
-    align-items: center;
+    align-content: center;
+    border-collapse: collapse;
     background-color: lightgray;
 }
 
