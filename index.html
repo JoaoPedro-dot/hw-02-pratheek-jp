@@ -12,9 +12,8 @@
 <body>
 
     <div id="data-abstraction">
-
         <div class="info">
-
+            
             <h1 class="centered">
                 Dataset Types
             </h1>
@@ -27,23 +26,24 @@
                 </tr>
                 <tr bgcolor="white" align="center">
                     <td>UFO</td>
-                    <td><a href="data/UFO.csv">Link</a></td>
+                    <td><a href="data/UFO.csv">UFO.csv</a></td>
                     <td>Table</td>
                 </tr>
                 <tr bgcolor="white" align="center">
                     <td>Airports</td>
-                    <td><a href="data/Airports.csv">Link</a></td>
+                    <td><a href="data/Airports.csv">Airports.csv</a></td>
                     <td>Table</td>
                 </tr>
                 <tr bgcolor="white" align="center">
                     <td>Google-Web</td>
-                    <td><a href="data/Google-Web.txt">Link</a></td>
+                    <td><a href="data/Google-Web.txt">Google-Web.txt</a></td>
                     <td>Network</td>
                 </tr>
             </table>
         </div>
-
+        
         <div class="info">
+            
             <h1 class="centered">
                 Data Types
             </h1>
@@ -56,148 +56,199 @@
                 <li>Items</li>
                 <li>Datetime: Attributes
                     <ul>
-                      <li>Ordinal</li>
-                      <li>Sequential</li>
-                  </ul>
-              </li>
-              <li>City: Attributes
-                <ul>
-                  <li>Categorical</li>
-              </ul>
-          </li>
-          <li>State: Attributes
+                        <li>Ordinal</li>
+                        <li>Sequential</li>
+                    </ul>
+                </li>
+                <li>City: Attributes
+                    <ul>
+                        <li>Categorical</li>
+                    </ul>
+                </li>
+                <li>State: Attributes
+                    <ul>
+                        <li>Categorical</li>
+                    </ul>
+                </li>
+                <li>Country: Attributes
+                    <ul>
+                        <li>Categorical</li>
+                    </ul>
+                </li>
+                <li>Shape: Attributes
+                    <ul>
+                        <li>Categorical</li>
+                    </ul>
+                </li>
+                <li>Duration: Attributes
+                    <ul>
+                        <li>Quantitative</li>
+                        <li>Sequential</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h2>
+                Airports
+            </h2>
+            
             <ul>
-              <li>Categorical</li>
-          </ul>
-      </li>
-      <li>Country: Attributes
-        <ul>
-          <li>Categorical</li>
-      </ul>
-  </li>
-  <li>Shape: Attributes
-    <ul>
-      <li>Categorical</li>
-  </ul>
-</li>
-<li>Duration: Attributes
-    <ul>
-      <li>Quantitative</li>
-      <li>Sequential</li>
-  </ul>
-</li>
-</ul>
+                <li>Items</li>
+                <li>Airport Name: Attributes
+                    <ul>
+                        <li>Categorical</li>
+                    </ul>
+                </li>
+                <li>Latitude: Position</li>
+                <li>Longitude: Position</li>
+            </ul>
 
-<h2>
-    Airports
-</h2>
+            <h2>
+                Google-Web
+            </h2>
 
-<ul>
-    <li>Items</li>
-    <li>Airport Name: Attributes
-        <ul>
-          <li>Categorical</li>
-      </ul>
-  </li>
-  <li>Latitude: Position</li>
-  <li>Longitude: Position</li>
-</ul>
+            <ul>
+                <li>Items (Nodes)</li>
+                <li>Links</li>
+            </ul>
+        </div>
+    </div>
 
-<h2>
-    Google-Web
-</h2>
+    <div id="task-abstraction">
+        
+        <h1 class="centered">
+            Task Abstraction
+        </h1>
 
-<ul>
-    <li>Items (Nodes)</li>
-    <li>Links</li>
-</ul>
-</div>
+        <div class="container" style="display: flex;">
+            <div class="left-column">
+                <div style="text-align: center; color:blue">
+                    <img src="img/vis1.png" style="max-width: 100%; max-height: 100%; width: auto; height: auto;" class="centered">
+                    <div align="left">
+                        <p>
+                            High-Level: Consume -> Discover
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Mid-Level: Search -> Lookup
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Low-Level: Query -> Summarize
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Target: All Data -> Trends
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-<div id="task-abstraction">
-    <h1 class="centered">
-        Task Abstraction
+            <div class="right-column">
+                <div style="text-align: center; color: blue;">
+                    <img src="img/vis2.png" style="max-width: 100%; max-height: 100%; width: auto; height: auto;" class="centered">
+                    <div align="left">
+                        <p>
+                            High-Level: Consume -> Present
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Mid-Level: Search -> Browse
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Low-Level: Query -> Compare
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Target: Attributes -> Distribution
+                            <ul>
+                                <li>Because...</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="decoration">
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <svg width="200" height="100">
+                    <circle cx="100" cy="50" r="40" />
+                </svg>
+            </div>
+            <div style="flex: 1;">
+                <svg width="200" height="100">
+                    <rect x="60" y="25" />
+                </svg>
+            </div>
+            <div style="flex: 1;">
+                <svg width="200" height="100">
+                    <circle cx="100" cy="50" r="40" />
+                </svg>
+            </div>
+            <div style="flex: 1;">
+                <svg width="200" height="100">
+                    <rect x="60" y="25" />
+                </svg>
+            </div>
+            <div style="flex: 1;">
+                <svg width="200" height="100">
+                    <circle cx="100" cy="50" r="40" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="Acknowledgements">
+        Acknowledgements
+        <div class="sources">
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a>
+                </li>
+                <li>
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/graphics/svg_intro.asp">SVG Tutorial</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a>
+                </li>
+                 <li>
+                    <a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
+                </li>
+                <li>
+                    <a href="https://www.geeksforgeeks.org/html-svg-basics/?ref=lbp">HTML SVG Basics</a>
+                </li>
+                <li>
+                    <a href="https://amosca01.github.io/DS4200-S23/slides/03-data-html-css.pdf">Lecture 3 Slides</a>
+                </li>
+                <li>
+                    <a href="https://amosca01.github.io/DS4200-S23/slides/04-tasks-interviews.pdf">Lecture 4 Slides</a>
+                </li>
+            </ul>
+        </div>
     </h1>
-    <div class="container" style="display: flex;">
-        <div class="left-column" style="flex-shrink: 1;">
-            <div style="text-align: center; color:blue">
-           <img src="img/vis1.png" width="700" height="450" class="centered">
-           <div align="left">
-                <p>
-                    Produce -> Record
-                </p>
-                <p>
-                    Search -> Explore
-                </p>
-                <p>
-                    Query -> Summarize
-                </p>
-                <p>
-                    All Data -> Trends
-                </p>
-            </div>
-       </div>
-   </div>
-
-   <div class="right-column">
-    <div style="text-align: center; color: blue;">
-        <img src="img/vis2.png" width="700" height="450" class="
-        centered">
-        <div align="left">
-        <p>
-                    Consume -> Present
-                </p>
-                <p>
-                    Search -> Browse
-                </p>
-                <p>
-                    Query -> Compare
-                </p>
-                <p>
-                    Attributes -> Distribution
-                </p>
-            </div>
-        </div>
-   </div>
-</div>
-
-
-<div id="decoration">
-    <div style="display: flex;">
-        <div style="flex: 1;">
-            <svg width="200" height="100">
-                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
-            </svg>
-        </div>
-        <div style="flex: 1;"><svg width="200" height="100">
-                <rect x="60" y="25" width="80" height="40" stroke="black" stroke-width="4" fill="red" />
-            </svg></div>
-        <div style="flex: 1;"><svg width="200" height="100">
-                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
-            </svg>
-        </div>
-        <div style="flex: 1;"><svg width="200" height="100">
-                <rect x="60" y="25" width="80" height="40" stroke="black" stroke-width="4" fill="red" />
-            </svg></div>
-        <div style="flex: 1;"><svg width="200" height="100">
-                <circle cx="100" cy="50" r="40" fill="yellow" opacity="50%" />
-            </svg>
-        </div>
-    </div>
-</div>
-
-<h1 class="Acknowledgements">
-    Acknowledgements
-    <div class="sources">
-        <ul>
-            <li><a href="data/UFO.csv">Link</a></li>
-            <li><a href="data/UFO.csv">Link</a></li>
-            <li><a href="data/UFO.csv">Link</a></li>
-            <li><a href="data/UFO.csv">Link</a></li>
-            <li><a href="data/UFO.csv">Link</a></li>
-        </ul>
-    </div>
-</h1>
 
 </body>
-
 </html>
+

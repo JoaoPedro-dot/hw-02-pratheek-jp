@@ -12,24 +12,35 @@ table {
     border-collapse:collapse;
 }
 
-td
-{
+td {
     border: solid 1px;
     border-color: lightgray;
     border-left: none;
     border-right: none;
-
 }
 
 .container {
     display: flex;
+    align-items: center;
 }
 
 rect {
-  border: solid 1px black;
+  fill: green;
+  width: 80px;
+  height: 40px;
+  stroke: black;
+  stroke-width: 3px;
 }
+
 rect:hover {
-  fill: blue;
+  fill: red;
+  stroke: darkgray;
+  stroke-width: 3px;
+}
+
+circle {
+    fill: green;
+    opacity: 50%;
 }
 
 circle:hover {
