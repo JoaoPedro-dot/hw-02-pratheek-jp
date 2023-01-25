@@ -21,6 +21,8 @@ The purpose of this assignment is to practice more advanced HTML and CSS, as wel
 
    - Make all font on your webpage Arial. 
    - Add a title: "hw-02".
+
+   
    - Add a div with the id "data-abstraction". Inside of this div:
       - Add a div with the class "info". Inside of this div: 
          - Add a centered header: "Dataset Types".
@@ -28,13 +30,19 @@ The purpose of this assignment is to practice more advanced HTML and CSS, as wel
       - Add another div with the class "info". Inside of this div:
          - Add a centered header: "Data Types". 
          - For each dataset you have, add a left-aligned header with the name of the dataset (UFO, Airports, Google-Web). Under the header, add an unordered list that lists the datatype of the columns and rows in the dataset. For any datasets that include attributes, list the attributes and their types as sub points in the list. 
+
+
    - Add a div with the id "task-abstraction". Inside of this div: 
       - Add a centered header: "Task Abstraction". 
       - Use [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) css to make two columns. Inside of each colum:
          - Add one of the images in the img folder of your cloned repo. Make the image centered in the column. 
          - Under each image, identify the high, medium, and low level actions of the visualization shown in the image, and the target(s) of those actions. This text should be left-aligned in the columns and in a font color of your choosing (but make sure it is readable).  
+
+
    - Add a div with the id "decoration". Inside of this div:
       - Add a row of evenly spaced, alternating, circles and rectagles (you should use [SVG](https://www.w3schools.com/graphics/svg_intro.asp)'s'). The shapes can be whatever colors you choose. The circles should have 50% opacity, and the rectangles should have a border. The spacing of the shapes should be maintained as the page width changes (see the reference video). If the mouse hovers over a rectangle, it should temporarily change color. If the mouse hovers over a circle, a border should be temporarily added.        
+
+
    - Add a centered header to the bottom of your page. The header should say "Acknowledgements" in font smaller than the font used for your first header. Under this header, add a div. Inside of this div add a bulleted list of the resources you used to complete this assignment.  
 
 ## Resources 
