@@ -8,11 +8,23 @@ body {
 	text-align: center;
 }
 
-table {
+.table {
     border-collapse:collapse;
+    align-items: center;
+    background-color: lightgray;
 }
 
-td {
+.table-header {
+    background-color: lightblue;
+}
+
+
+.row {
+    background-color: white;
+    text-align: center;
+}
+
+tr {
     border: solid 1px;
     border-color: lightgray;
     border-left: none;
@@ -22,6 +34,23 @@ td {
 .container {
     display: flex;
     align-items: center;
+}
+
+.left-column {
+    text-align: center;
+    color: blue;
+}
+
+.right-column {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 rect {

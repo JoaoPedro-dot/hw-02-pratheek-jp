@@ -6,35 +6,38 @@
 </head>
 
 <link rel="stylesheet" href="style.css">
+
+<!-- HTML title -->
 <title>hw-02</title>
 
-
+<!-- HTML body -->
 <body>
 
+<!-- Pt.1 Data Abstraction -->
     <div id="data-abstraction">
         <div class="info">
-            
+            <!-- Centers the header -->
             <h1 class="centered">
                 Dataset Types
             </h1>
-
-            <table bgcolor="lightgrey" align="center">
-                <tr bgcolor="lightblue">
+            <!-- Creates the table -->
+            <table class="table">
+                <tr class="table-header">
                     <th width="550">Data</th>
                     <th width="550">Link</th>
                     <th width="550">Dataset Type</th>
                 </tr>
-                <tr bgcolor="white" align="center">
+                <tr class="row">
                     <td>UFO</td>
                     <td><a href="data/UFO.csv">UFO.csv</a></td>
                     <td>Table</td>
                 </tr>
-                <tr bgcolor="white" align="center">
+                <tr class="row">
                     <td>Airports</td>
                     <td><a href="data/Airports.csv">Airports.csv</a></td>
                     <td>Table</td>
                 </tr>
-                <tr bgcolor="white" align="center">
+                <tr class="row">
                     <td>Google-Web</td>
                     <td><a href="data/Google-Web.txt">Google-Web.txt</a></td>
                     <td>Network</td>
@@ -122,66 +125,62 @@
 
         <div class="container" style="display: flex;">
             <div class="left-column">
-                <div style="text-align: center; color:blue">
-                    <img src="img/vis1.png" style="max-width: 100%; max-height: 100%; width: auto; height: auto;" class="centered">
-                    <div align="left">
-                        <p>
-                            High-Level: Consume -> Discover
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Mid-Level: Search -> Lookup
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Low-Level: Query -> Summarize
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Target: All Data -> Trends
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                    </div>
+                <img src="img/vis1.png" class="centered">
+                <div align="left">
+                    <p>
+                        High-Level: Consume -> Discover
+                        <ul>
+                            <li>We are meant to consume the visualization, not produce anything. We are learning new information that was not previously evident from the data</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Mid-Level: Search -> Lookup
+                        <ul>
+                            <li>Given the data for "Last 3 days" are highlighted, we know our target and want to know about its location</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Low-Level: Query -> Summarize
+                        <ul>
+                            <li>This is a query meant to summarize the data because we are looking at the entirety of the visualization, seeing all the data at once</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Target: All Data -> Trends
+                        <ul>
+                            <li>The visualization has all of the data and shows a trend of daily maximum temperatures from 1979-2021 in Vancouver</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
 
             <div class="right-column">
-                <div style="text-align: center; color: blue;">
-                    <img src="img/vis2.png" style="max-width: 100%; max-height: 100%; width: auto; height: auto;" class="centered">
-                    <div align="left">
-                        <p>
-                            High-Level: Consume -> Present
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Mid-Level: Search -> Browse
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Low-Level: Query -> Compare
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                        <p>
-                            Target: Attributes -> Distribution
-                            <ul>
-                                <li>Because...</li>
-                            </ul>
-                        </p>
-                    </div>
+                <img src="img/vis2.png" class="centered">
+                <div align="left">
+                    <p>
+                        High-Level: Consume -> Present
+                        <ul>
+                            <li>In this visualization, the reader is consuming data that is being presented to them. The information could be used to communicate to a meteorologist identifying outliers in temperature data and wanted a visual representation.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Mid-Level: Search -> Browse
+                        <ul>
+                            <li>This is a browse because we know the rough estimate but not the exact location of the data. We want to observe temperatures above 20 degrees F</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Low-Level: Query -> Compare
+                        <ul>
+                            <li>We are comparing the daily mean temperatures above 20 degrees F between Seattle and Portland, looking for similarities and differences</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Target: Attributes -> Distribution
+                        <ul>
+                            <li>We want to look for patterns in the data and anomolies such as outliers</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>
@@ -248,7 +247,6 @@
             </ul>
         </div>
     </h1>
-
 </body>
 </html>
 
